@@ -95,8 +95,8 @@
     window.addEventListener('deviceorientation', function(event) {
         var beta = event.beta; // 기울기 각도
         var gamma = event.gamma; // 기울기 각도
-        var rotateX = beta * 2; // X 축 회전 각도
-        var rotateY = gamma * 2; // Y 축 회전 각도
+        var rotateX = beta * 1.5; // X 축 회전 각도
+        var rotateY = gamma * 1.5; // Y 축 회전 각도
         
         // 카드 회전
         containers.forEach(function(container) {
